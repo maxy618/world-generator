@@ -58,13 +58,6 @@ generate_world(
 - `growth_probability`: Probability that a biome spreads to neighboring cells.
 - `frame_delay`: Delay between visualization frames (lower values speed up the visualization).
 
-**Tip:** For reproducible results, set a random seed before calling `generate_world`:
-
-```python
-import numpy as np
-np.random.seed(42)
-```
-
 ---
 
 ## Examples
