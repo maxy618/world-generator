@@ -96,10 +96,10 @@ def generate_world(num_rows, num_cols, number_of_seeds, growth_probability=0.55,
 
 if __name__ == "__main__":
     final_map = generate_world(
-        num_rows=200,
-        num_cols=200,
+        num_rows=100,
+        num_cols=100,
         number_of_seeds=10,
-        growth_probability=0.58,
+        growth_probability=0.57,
         frame_delay=0.001
     )
 
